@@ -20,7 +20,6 @@ body {
     margin: 0;
     padding: 0;
     color: #434455 ;
-    color: #FFFFFF;
 }
 ul {
     list-style: none;
@@ -58,8 +57,8 @@ h1{
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
-    padding-top: 188px; 
-    padding-bottom: 48px;
+    padding: 0;
+  margin: 0 auto 48px;
 }
 h2
 {
@@ -95,10 +94,13 @@ color: #2E2F42;
 header
 {
     background-color: #FFFFFF;
-    max-width: 1440px;
+    max-width: 1158px;
     margin: 0 auto;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-container
+{
+     padding: 24px 15px;
 }
 
 .logo-first
@@ -148,6 +150,10 @@ header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1158px;
+  margin: 0 auto;
+  padding: 24px 15px
+
 }
 header nav {
     display: flex;
@@ -179,18 +185,25 @@ color: white;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: #4D5AE5;
 cursor: pointer;
-margin: 0 auto;
-margin-bottom: 188px;
+padding: 16px 32px;
+border-radius: 4px;
+border: none;
+
 }
 .hero button
 {
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin: 0 auto;
     flex-wrap: wrap;
 }
 .button:hover,
 .button:focus{
     background: #404bbf;
+}
+.hero
+{
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .about
 {
@@ -201,20 +214,24 @@ letter-spacing: 0.02em;
 color: #434455;
 padding-left: 15px;
 }
-.team
+.team 
 {
     background-color: #F4F4FD;
 }
 .team-title
 {
     align-items: center;
-    margin-bottom: 72px;
-    margin-top: 120px;
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+.team li{
+    background-color: #FFFFFF;
 }
 .team ul
 {
     display: flex;
 gap: 24px;
+overflow: hidden;
 }
 
 .names
@@ -240,11 +257,15 @@ margin-bottom: 32px;
 .features ul
 {
     display: flex;
-    margin-bottom: 120px;
-    margin-top: 120px;
     gap: 24px;
 }
-.features-title
+.features{
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    background-color: #FFFFFF;
+}
+.visually-hidden
 {
   position: absolute;
   width: 1px;
@@ -265,15 +286,15 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.portfolio-title
-{
-    margin-top: 120px;
-    margin-bottom: 72px;
-}
+
 .team ul{
   background-color: #FFFFFF; 
   justify-content: center; 
   gap: 24px;
+}
+.team {
+    padding-bottom: 120px;
+    padding-top: 120px;
 }
 .portfolio p
 {font-weight: 400;
@@ -298,7 +319,6 @@ footer
     padding-bottom: 100px;
    
 }
-
 .logo-footer
 {
   font-family: "Raleway", sans-serif;  
@@ -311,10 +331,12 @@ color: #F4F4FD;
 }
 .container
 {
-    width: 1440px;
-    margin: 0 auto;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
-h1{
+h1
+{
     max-width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
@@ -325,20 +347,6 @@ h1{
     justify-content: center;
     gap: 24px;
     flex-wrap: wrap;
-    margin-bottom: 120px;
-    
+    padding-top: 232px;
+    padding-bottom: 120px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
