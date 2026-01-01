@@ -67,6 +67,7 @@ h2
     letter-spacing: 0.02em;
     text-align: center;
     color:  #2E2F42;
+    margin: auto;
 }
 h3
 {
@@ -94,7 +95,7 @@ color: #2E2F42;
 header
 {
     background-color: #FFFFFF;
-    max-width: 1158px;
+    width: 100%;
     margin: 0 auto;
     border-bottom: 1px solid #e7e9fc;
 }
@@ -226,6 +227,9 @@ padding-left: 15px;
 }
 .team li{
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+padding-block: 0px 32px;
+padding-inline: 0px;
 }
 .team ul
 {
@@ -279,15 +283,19 @@ margin-bottom: 32px;
   overflow: hidden;
 }
 .portfolio
-
-  { font-weight: 400;
+{
+ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-}
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
 
-.team ul{
+}
+.team ul
+{
   background-color: #FFFFFF; 
   justify-content: center; 
   gap: 24px;
@@ -297,11 +305,21 @@ color: #434455;
     padding-top: 120px;
 }
 .portfolio p
-{font-weight: 400;
+{
+font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;}
+color: #434455;
+
+}
+.portfolio ul
+{
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
 
 footer p
 {
@@ -311,6 +329,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
  max-width: 264px;
+
 }
 footer
 {
@@ -341,12 +360,8 @@ h1
     margin: 0 auto;
     margin-bottom: 48px;
 }
-.portfolio ul
+.portfolio-title
 {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    flex-wrap: wrap;
-    padding-top: 232px;
-    padding-bottom: 120px;
+    padding-bottom: 72px;
 }
+
