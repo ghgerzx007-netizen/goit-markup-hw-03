@@ -263,6 +263,9 @@ margin-bottom: 32px;
     display: flex;
     gap: 24px;
 }
+.features li {
+  width: 264px;
+}
 .features{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -295,10 +298,12 @@ color: #434455;
 
 }
 .team ul
-{
-  background-color: #FFFFFF; 
+{ 
   justify-content: center; 
   gap: 24px;
+}
+.team li{
+    background-color: #FFFFFF;
 }
 .team {
     padding-bottom: 120px;
@@ -364,4 +369,13 @@ h1
 {
     padding-bottom: 72px;
 }
-
+.portfolio-item-content
+{
+    border-bottom: 1px solid #E7E9FC;
+border-left: 1px solid #E7E9FC;
+border-right: 1px solid #E7E9FC;
+padding-block: 32px;
+padding-inline: 16px;
+width: 360px;
+height: 120px;
+}
