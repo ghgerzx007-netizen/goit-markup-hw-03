@@ -222,8 +222,6 @@ padding-left: 15px;
 .team-title
 {
     align-items: center;
-    padding-top: 120px;
-    padding-bottom: 72px;
 }
 .team li{
     background-color: #FFFFFF;
@@ -236,8 +234,12 @@ padding-inline: 0px;
     display: flex;
 gap: 24px;
 overflow: hidden;
+padding-top: 72px;
 }
-
+.team-card
+{
+    padding: 32px 16px;
+}
 .names
 {
     font-weight: 500;
@@ -316,14 +318,16 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-
 }
 .portfolio ul
 {
-    gap: 24px;
+    gap: 48px 24px;
     justify-content: center;
     flex-wrap: wrap;
     display: flex;
+}
+.card-title{
+    margin-bottom: 8px;
 }
 
 footer p
