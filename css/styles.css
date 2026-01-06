@@ -20,6 +20,7 @@ body {
     margin: 0;
     padding: 0;
     color: #434455 ;
+    background-color: #FFFFFF;
 }
 ul {
     list-style: none;
@@ -269,6 +270,10 @@ color: #434455;
 
     background-color: #FFFFFF;
 }
+.features-title
+{
+    margin-bottom: 8px;
+}
 .visually-hidden
 {
   position: absolute;
@@ -333,7 +338,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
  max-width: 264px;
-
+ margin-top: 16px;
 }
 footer
 {
