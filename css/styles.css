@@ -284,8 +284,8 @@ header address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team ul {
