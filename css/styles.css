@@ -1,3 +1,5 @@
+
+
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     padding: 0;
@@ -254,6 +256,7 @@ header address {
 .features ul {
     display: flex;
     gap: 24px;
+    flex-basis: calc((100% - 72px) / 4);
 }
 .features {
     padding-top: 120px;
@@ -291,6 +294,7 @@ header address {
 .team ul {
     justify-content: center;
     gap: 24px;
+    
 }
 
 .team li {
@@ -298,6 +302,7 @@ header address {
 }
 .team-card {
    padding: 32px 16px;
+    width: 264px;
 }
 
 .team {
@@ -364,14 +369,14 @@ h1 {
 }
 
 .portfolio-title {
-   padding-bottom: 72px;
+   margin-bottom: 72px;
 }
 
 .portfolio-item-content {
     border-bottom: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
-    padding: 32px 16px;
-    max-width: 360px;
+   padding: 32px 16px;
+    width: 360px;
     height: 120px;
 }
