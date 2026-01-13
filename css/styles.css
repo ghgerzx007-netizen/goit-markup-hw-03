@@ -225,14 +225,16 @@ header address {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
     padding-inline: 0px;
+    
+
 }
 
 .team ul {
     display: flex;
     overflow: hidden;
     gap: 24px;
+   
 }
-
 
 .names {
     font-weight: 500;
@@ -256,8 +258,8 @@ header address {
 .features ul {
     display: flex;
     gap: 24px;
-    flex-basis: calc((100% - 72px) / 4);
 }
+
 .features {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -299,6 +301,8 @@ header address {
 
 .team li {
     background-color: #FFFFFF;
+   width: calc((1158px - 72px) / 4);
+   
 }
 .team-card {
    padding: 32px 16px;
@@ -324,8 +328,12 @@ header address {
     justify-content: center;
     flex-wrap: wrap;
     display: flex;
-}
 
+}
+.portfolio li{
+    margin-top: 72px;
+  width: 360px;                   /*calc((1158px - 144px) / 6);\*/
+}
 .card-title {
     margin-bottom: 8px;
 }
@@ -368,9 +376,6 @@ h1 {
     margin-bottom: 48px;
 }
 
-.portfolio-title {
-   margin-bottom: 72px;
-}
 
 .portfolio-item-content {
     border-bottom: 1px solid #E7E9FC;
