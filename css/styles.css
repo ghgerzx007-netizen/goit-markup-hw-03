@@ -301,7 +301,7 @@ header address {
 
 .team li {
     background-color: #FFFFFF;
-   width: calc((1158px - 72px) / 4);
+   width: calc((100% - 72px) / 4);
    
 }
 .team-card {
